@@ -27,9 +27,9 @@ public class Calculator
 		Scanner MASD = new Scanner(System.in);
 		System.out.print("Declare if you want to (M)ultiply, (S)ubtract, (A)dd, or (D)ivide: ");
 		//System.out.print("M, A, S, or D?: ");
-		String temp = "";
-		temp = MASD.nextLine();
-		Choose = temp.toUpperCase();
+		String chosen = "";
+		chosen = MASD.nextLine();
+		Choose = chosen.toUpperCase();
 		switch (Choose)
 		{
 		case "M":
