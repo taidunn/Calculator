@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class Calculator
 {
+	/*Most of the variables are defined right here this makes it so these are accessable by any type of class.
+	* I also set the code to permanently modify each variable for the current session running. So what you type in will
+	*cause one of these to change.
+	*/
 	public static long result = 0;
 	public static int NumberOne = 0;
 	public static int NumberTwo = 0;
@@ -46,6 +50,7 @@ public class Calculator
 
 		case "D":
 			result = NumberOne / NumberTwo;
+			//These will not return a decimal they will only return the whole number.
 			break;
 		}
 		System.out.println(result);
