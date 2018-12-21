@@ -18,7 +18,7 @@ public class Calculator
 	public static void SecondNumber()
 	{
 		Scanner TwoEnt = new Scanner(System.in);
-		System.out.print("Please enter your  number: ");
+		System.out.print("Please enter your second number: ");
 		NumberTwo = TwoEnt.nextInt();
 		System.out.println("Second Number");
 	}
